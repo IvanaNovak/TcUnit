@@ -29,7 +29,7 @@ VAR_GLOBAL CONSTANT
     xUnitBufferSize : UDINT := 65535;
 
     (* Default path and filename for the xunit testresults e.g.: for use with jenkins *)
-    xUnitFilePath : Tc2_System.T_MaxString := 'C:\Program Files (x86)\Jenkins\workspace\plc_testing\unittestresults.xml';
+    xUnitFilePath : Tc2_System.T_MaxString := 'C:\Program Files (x86)\Jenkins\workspace\ci_plc_testing\unittestresults.xml';
 	
 
     (* This is the maximum number of ADS-messages that can be stored for reporting at the same time.
